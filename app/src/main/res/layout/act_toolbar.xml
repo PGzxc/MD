@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
     <android.support.design.widget.AppBarLayout
@@ -10,27 +10,28 @@
         android:layout_height="wrap_content"
         app:elevation="0dp">
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@android:color/white"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:popupTheme="@style/OverFlowMenuTheme"
-        app:titleTextAppearance="@style/Theme.Toolbar.Base.Title">
-
-        <TextView
-            android:textColor="@color/colorPrimary"
-            android:layout_width="wrap_content"
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Second"
-            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"/>
+            android:background="@android:color/white"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/OverFlowMenuTheme"
+            app:titleTextAppearance="@style/Theme.Toolbar.Base.Title">
 
-    </android.support.v7.widget.Toolbar>
+            <TextView
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Second"
+                android:textColor="@color/colorPrimary" />
+
+        </android.support.v7.widget.Toolbar>
+
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/colorAccent"/>
+            android:background="@color/colorAccent" />
     </android.support.design.widget.AppBarLayout>
 </LinearLayout>

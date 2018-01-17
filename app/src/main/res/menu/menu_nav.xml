@@ -1,50 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-      xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <group android:checkableBehavior="single">
-    <item android:id="@+id/share"
-          android:title="分享"
-          android:checked="true"
-          android:checkable="true"
-          android:icon="@drawable/ic_share_black_24dp"
-          ></item>
+        <item
+            android:id="@+id/share"
+            android:checkable="true"
+            android:checked="true"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="分享"/>
 
-    <item android:id="@+id/bluetooth"
-          android:title="蓝牙"
-          android:checkable="true"
-          android:icon="@drawable/ic_bluetooth_connected_black_24dp"
-          ></item>
+        <item
+            android:id="@+id/bluetooth"
+            android:checkable="true"
+            android:icon="@drawable/ic_bluetooth_connected_black_24dp"
+            android:title="蓝牙"/>
 
-    <item android:id="@+id/headset"
-          android:title="应用"
-          android:checkable="true"
-          android:icon="@drawable/ic_apps_black_24dp"
-          ></item>
+        <item
+            android:id="@+id/headset"
+            android:checkable="true"
+            android:icon="@drawable/ic_apps_black_24dp"
+            android:title="应用"/>
 
     </group>
 
     <item android:title="分类">
         <menu>
-            <item android:id="@+id/nav_share"
-                  android:title="Share"
-                  app:actionLayout="@layout/layout_menuaction"
-                  app:showAsAction="always"/>
-            <item android:id="@+id/nav_send" android:title="Send"/>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share"
+                app:actionLayout="@layout/layout_menuaction"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/nav_send"
+                android:title="Send" />
         </menu>
     </item>
 
     <item android:title="分类2">
         <menu>
-            <item android:id="@+id/nav_share2" android:title="Share"/>
-            <item android:id="@+id/nav_send2" android:title="Send"/>
+            <item
+                android:id="@+id/nav_share2"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send2"
+                android:title="Send" />
         </menu>
     </item>
 
     <item android:title="分类3">
         <menu>
-            <item android:id="@+id/nav_share3" android:title="Share"/>
-            <item android:id="@+id/nav_send3" android:title="Send"/>
+            <item
+                android:id="@+id/nav_share3"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send3"
+                android:title="Send" />
         </menu>
     </item>
 </menu>

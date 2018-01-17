@@ -13,74 +13,74 @@
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:navigationIcon="@drawable/ic_headset_black_24dp"
         app:popupTheme="@style/OverFlowMenuTheme"
-        app:titleTextAppearance="@style/Theme.Toolbar.Base.Title"
-        app:navigationIcon="@drawable/ic_headset_black_24dp">
+        app:titleTextAppearance="@style/Theme.Toolbar.Base.Title">
 
         <android.support.v7.widget.ActionMenuView
+            android:id="@+id/actionmenu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:id="@+id/actionmenu">
-        </android.support.v7.widget.ActionMenuView>
+            android:layout_gravity="center"/>
     </android.support.v7.widget.Toolbar>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/btn1"
-        android:text="toolbar的其他实验"/>
-
-    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-    android:id="@+id/btn2"
-    android:text="searchview"/>
+        android:text="toolbar的其他实验" />
 
     <Button
+        android:id="@+id/btn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="searchview" />
+
+    <Button
         android:id="@+id/btn3"
-        android:text="卡片"/>
-
-    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="卡片" />
+
+    <Button
         android:id="@+id/btn4"
-        android:text="其他组合"/>
-
-    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="其他组合" />
+
+    <Button
         android:id="@+id/btn5"
-        android:text="tablayout"/>
-
-    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="tablayout" />
+
+    <Button
         android:id="@+id/btn6"
-        android:text="collapsing"/>
-
-    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="collapsing" />
+
+    <Button
         android:id="@+id/btn7"
-        android:text="behavior"/>
-    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="behavior" />
+
+    <Button
         android:id="@+id/btn8"
-        android:text="沉浸式"/>
-
-    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="沉浸式" />
+
+    <Button
         android:id="@+id/btn9"
-        android:text="状态"/>
-
-    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="状态" />
+
+    <Button
         android:id="@+id/btn10"
-        android:text="底部"/>
-    </LinearLayout>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="底部" />
+</LinearLayout>
